@@ -1,0 +1,53 @@
+# Core Framework Dependencies
+streamlit>=1.30.0          # Web interface framework
+crewai>=0.11.0            # Multi-agent orchestration
+python-dotenv>=1.0.0      # Environment configuration
+requests>=2.31.0          # HTTP client for API calls
+
+# AI/ML Stack
+langchain>=0.1.0          # LLM orchestration
+ollama>=0.1.6            # Local LLM integration
+sentence-transformers>=2.2.2  # Text embeddings (all-MiniLM-L6-v2)
+spacy>=3.7.2             # NLP and entity extraction
+transformers>=4.36.0     # Hugging Face transformers
+scikit-learn>=1.3.0      # Machine learning utilities
+
+# Data Storage
+chromadb>=0.4.22         # Vector database
+networkx>=3.2.1          # Graph database
+sqlalchemy>=2.0.25       # SQL ORM
+aiosqlite>=0.19.0        # Async SQLite support
+psycopg2-binary>=2.9.9   # PostgreSQL adapter
+
+# Document Processing
+PyPDF2>=3.0.0           # PDF parsing
+python-magic>=0.4.27     # File type detection
+beautifulsoup4>=4.12.2   # HTML parsing
+
+# Visualization
+plotly>=5.18.0          # Interactive charts
+pyvis>=0.3.2            # Network visualization
+streamlit-agraph>=0.0.45 # Graph visualization in Streamlit
+matplotlib>=3.8.0        # Static plots
+wordcloud>=1.9.2        # Word cloud generation
+
+# Data Processing
+pandas>=2.1.0           # Data manipulation
+numpy>=1.24.0           # Numerical computing
+pydantic>=2.5.0         # Data validation
+
+# Development & Testing
+pytest>=7.4.0           # Testing framework
+pytest-cov>=4.1.0       # Test coverage
+black>=23.12.0          # Code formatting
+isort>=5.13.0           # Import sorting
+flake8>=7.0.0          # Code linting
+mypy>=1.8.0            # Type checking
+
+# Containerization
+docker-compose>=1.29.2  # Container orchestration
+
+# Optional Dependencies
+# torch>=2.1.0         # PyTorch (if needed for local model inference)
+# ray>=2.9.0          # Distributed computing (if needed for scaling)
+
